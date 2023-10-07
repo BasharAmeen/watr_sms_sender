@@ -13,11 +13,7 @@ abstract class FlutterFlowTheme {
       _prefs = await SharedPreferences.getInstance();
   static ThemeMode get themeMode {
     final darkMode = _prefs?.getBool(kThemeModeKey);
-    return darkMode == null
-        ? ThemeMode.system
-        : darkMode
-            ? ThemeMode.dark
-            : ThemeMode.light;
+    return ThemeMode.light;
   }
 
   static void saveThemeMode(ThemeMode mode) => mode == ThemeMode.system

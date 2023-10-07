@@ -1,3 +1,7 @@
+import 'dart:developer';
+
+import 'package:sms_sender/pages/home_page/home_page_widget.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -25,7 +29,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => LoginPageModel());
-
+    _model.initState(context);
     _model.emailTextController ??= TextEditingController();
     _model.passwordTextController ??= TextEditingController();
   }
@@ -186,7 +190,9 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                       if (user == null) {
                         return;
                       }
-
+                      log("login delay:${valueOrDefault(currentUserDocument?.delayTimeM, 0)}");
+                      await saveDelayMinutes(
+                          valueOrDefault(currentUserDocument?.delayTimeM, 0));
                       context.goNamedAuth('HomePage', context.mounted);
                     },
                     text: 'تسجيل الدخول',

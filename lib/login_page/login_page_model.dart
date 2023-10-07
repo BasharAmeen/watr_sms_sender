@@ -1,3 +1,7 @@
+import 'dart:developer';
+
+import 'package:permission_handler/permission_handler.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -21,9 +25,18 @@ class LoginPageModel extends FlutterFlowModel<LoginPageWidget> {
   String? Function(BuildContext, String?)? passwordTextControllerValidator;
 
   /// Initialization and disposal methods.
+  Future getPermission() async => await [Permission.sms].request();
 
-  void initState(BuildContext context) {
+  Future<bool> isPermissionGranted() async =>
+      await Permission.sms.status.isGranted;
+
+  void initState(BuildContext context) async {
     passwordVisibility = false;
+    log('login init');
+    if (!(await isPermissionGranted())) {
+      log('true');
+      await getPermission();
+    }
   }
 
   void dispose() {

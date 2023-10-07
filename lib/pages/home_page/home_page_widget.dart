@@ -1,3 +1,5 @@
+import 'package:flutter_background_service/flutter_background_service.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -25,6 +27,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => HomePageModel());
+    _model.initState(context);
   }
 
   @override
@@ -65,6 +68,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   child: FFButtonWidget(
                     onPressed: () {
                       print('Button pressed ...');
+                      FlutterBackgroundService().invoke("setAsForeground");
                     },
                     text: 'التشغيل بشكل ظاهر',
                     options: FFButtonOptions(
@@ -94,6 +98,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   child: FFButtonWidget(
                     onPressed: () {
                       print('Button pressed ...');
+                      FlutterBackgroundService().invoke("setAsBackground");
                     },
                     text: 'التشغيل بالخلفية',
                     options: FFButtonOptions(
@@ -120,37 +125,81 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 ),
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
-                  child: FFButtonWidget(
-                    onPressed: () {
-                      print('Button pressed ...');
-                    },
-                    text: 'تشغيل',
-                    options: FFButtonOptions(
-                      width: 200.0,
-                      height: 40.0,
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: FlutterFlowTheme.of(context).primary,
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Readex Pro',
-                                color: Colors.white,
+                  child: ValueListenableBuilder(
+                    valueListenable: isServiceRunning,
+                    builder: (context, value, child) => value
+                        ? FFButtonWidget(
+                            onPressed: () {
+                              print('Button pressed ...');
+                              final service = FlutterBackgroundService();
+                              isServiceRunning.value = false;
+                              saveServiceStatus(false);
+                              service.invoke("stopService");
+                            },
+                            text: 'ايقاف التشغيل',
+                            options: FFButtonOptions(
+                              width: 200.0,
+                              height: 40.0,
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  24.0, 0.0, 24.0, 0.0),
+                              iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 0.0),
+                              color: FlutterFlowTheme.of(context).primary,
+                              textStyle: FlutterFlowTheme.of(context)
+                                  .titleSmall
+                                  .override(
+                                    fontFamily: 'Readex Pro',
+                                    color: Colors.white,
+                                  ),
+                              elevation: 3.0,
+                              borderSide: BorderSide(
+                                color: Colors.transparent,
+                                width: 1.0,
                               ),
-                      elevation: 3.0,
-                      borderSide: BorderSide(
-                        color: Colors.transparent,
-                        width: 1.0,
-                      ),
-                      borderRadius: BorderRadius.circular(8.0),
-                    ),
+                              borderRadius: BorderRadius.circular(8.0),
+                            ),
+                          )
+                        : FFButtonWidget(
+                            onPressed: () {
+                              print('Button pressed ...');
+                              final service = FlutterBackgroundService();
+                              isServiceRunning.value = true;
+                              saveServiceStatus(true);
+                              service.startService();
+                            },
+                            text: 'تشغيل',
+                            options: FFButtonOptions(
+                              width: 200.0,
+                              height: 40.0,
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  24.0, 0.0, 24.0, 0.0),
+                              iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 0.0),
+                              color: FlutterFlowTheme.of(context).primary,
+                              textStyle: FlutterFlowTheme.of(context)
+                                  .titleSmall
+                                  .override(
+                                    fontFamily: 'Readex Pro',
+                                    color: Colors.white,
+                                  ),
+                              elevation: 3.0,
+                              borderSide: BorderSide(
+                                color: Colors.transparent,
+                                width: 1.0,
+                              ),
+                              borderRadius: BorderRadius.circular(8.0),
+                            ),
+                          ),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 130.0, 0.0, 0.0),
                   child: FFButtonWidget(
                     onPressed: () async {
+                      final service = FlutterBackgroundService();
+                      isServiceRunning.value = false;
+                      saveServiceStatus(false);
+                      service.invoke("stopService");
                       GoRouter.of(context).prepareAuthEvent();
                       await authManager.signOut();
                       GoRouter.of(context).clearRedirectLocation();
