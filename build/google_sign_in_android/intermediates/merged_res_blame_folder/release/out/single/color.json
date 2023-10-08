@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/google_sign_in_android/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/google_sign_in_android/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/google_sign_in_android/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

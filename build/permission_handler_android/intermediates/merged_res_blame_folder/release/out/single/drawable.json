@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/permission_handler_android/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/permission_handler_android/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/permission_handler_android/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/permission_handler_android/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_tint_default.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

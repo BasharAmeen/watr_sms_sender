@@ -192,6 +192,39 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                   ),
                 ),
+                FutureBuilder(
+                    future: supportCustomSim,
+                    builder: (context, snapshot) {
+                      return snapshot.data == true
+                          ? Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                              child: DropdownMenu(
+                                dropdownMenuEntries: [
+                                  DropdownMenuEntry(value: 1, label: "1"),
+                                  DropdownMenuEntry(value: 2, label: "2")
+                                ],
+                                initialSelection: _model.initialSimSlot,
+                                controller: _model.dropDownController,
+                                onSelected: (value) async {
+                                  int? selectedSim = await loadSelectedSim();
+                                  if (selectedSim != value) {
+                                    selectedSim = value;
+                                    final service = FlutterBackgroundService();
+                                    if (await service.isRunning()) {
+                                      service.invoke('stopService');
+                                      await saveSelectedSim(value);
+                                      await service.startService();
+                                    } else {
+                                      await saveSelectedSim(value);
+                                    }
+                                  }
+                                },
+                                hintText: "اختر الشريحة (1، 2)",
+                                width: 250,
+                              ))
+                          : Text("");
+                    }),
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 130.0, 0.0, 0.0),
                   child: FFButtonWidget(

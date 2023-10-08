@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

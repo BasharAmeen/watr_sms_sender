@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/basha/.gradle/caches/transforms-3/02b48dcb9e48323e8d499d21686dd0f0/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    }
+]

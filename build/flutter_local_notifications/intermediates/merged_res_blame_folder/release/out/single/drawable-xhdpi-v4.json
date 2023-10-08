@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_res/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_res/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]

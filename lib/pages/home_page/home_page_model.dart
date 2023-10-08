@@ -30,7 +30,8 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
 
   final unfocusNode = FocusNode();
 
-  int? simSlot;
+  int? initialSimSlot;
+  TextEditingController dropDownController = TextEditingController();
 
   /// Initialization and disposal methods.
 
@@ -38,7 +39,7 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
     await loadServiceStatus();
     int delay = await loadDelay();
     log("init delayTimeM: $delay");
-
+    initialSimSlot = await loadSelectedSim();
     await initializeService();
   }
 
@@ -64,7 +65,7 @@ Future<int> loadDelay() async {
   // Load the status from shared preferences.
   SharedPreferences prefs = await SharedPreferences.getInstance();
 
-  int delay = prefs.getInt('delayTimeM') ?? 0;
+  int delay = prefs.getInt('delayTimeM2') ?? 0;
   log("shared: $delay");
   return delay;
 }
@@ -72,7 +73,23 @@ Future<int> loadDelay() async {
 Future<void> saveDelayMinutes(int minutes) async {
   // Save the status to shared preferences.
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  await prefs.setInt('delayTimeM', minutes);
+  await prefs.setInt('delayTimeM2', minutes);
+}
+
+Future<int?> loadSelectedSim() async {
+  // Load the status from shared preferences.
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+
+  int? selectedSim = prefs.getInt('selectedSim');
+  log("SelectedSim: $selectedSim");
+  return selectedSim;
+}
+
+Future<void> saveSelectedSim(int? selectedSim) async {
+  // Save the status to shared preferences.
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  if (selectedSim == null) return;
+  await prefs.setInt('selectedSim', selectedSim);
 }
 
 @pragma('vm:entry-point')
@@ -131,6 +148,7 @@ Future<void> initializeService() async {
 
 Future<void> otpMonitor() async {
   int delay = await loadDelay();
+  int? selectedSim = await loadSelectedSim();
   int delayTimeM = delay;
   log("otpMonitor delayTimeM: $delay");
 
@@ -165,13 +183,14 @@ Future<void> otpMonitor() async {
               dataObject as Map<String, dynamic>;
 
           if (updatedDocData == null || updatedDocData.containsKey("otp")) {
+            log("message already sent!");
             return;
           }
 
           log(docData.toString());
           String otp = generateOTP(4);
           sendMessage(docData.values.toList()[0].toString(),
-              "أهلًا بك في واتر،\nرمز التحقق الخاص بك: $otp");
+              "أهلًا بك في واتر،\nرمز التحقق الخاص بك: $otp", selectedSim);
           docData['otp'] = otp;
           await doc.doc.reference.update(docData);
         },
@@ -196,14 +215,14 @@ String generateOTP(int length) {
 Future<bool> get supportCustomSim async =>
     await BackgroundSms.isSupportCustomSim ?? false;
 
-void sendMessage(String phoneNumber, String message, {int? simSlot}) async {
+void sendMessage(String phoneNumber, String message, int? selectedSim) async {
   SmsStatus result = await BackgroundSms.sendMessage(
       phoneNumber: phoneNumber,
       message: message,
-      simSlot: await supportCustomSim ? simSlot : null);
+      simSlot: await supportCustomSim ? selectedSim : null);
   if (result == SmsStatus.sent) {
-    log("Sent");
+    log("Sent from sim ${selectedSim ?? 0}");
   } else {
-    log("Failed");
+    log("Failed to send");
   }
 }

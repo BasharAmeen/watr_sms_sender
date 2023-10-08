@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_res/release/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/basha/.gradle/caches/transforms-3/5aeab8c821a088f79e609e7237ca164c/transformed/appcompat-1.2.0/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]
