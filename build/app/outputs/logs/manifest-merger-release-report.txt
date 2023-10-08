@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
-INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
-INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
-INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
+ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
+INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
+INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
+INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
 MERGED from [:cloud_firestore] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_performance] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
 MERGED from [:firebase_auth] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
@@ -77,22 +77,22 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/basha/.gradle/caches/t
 MERGED from [io.grpc:grpc-android:1.52.1] /home/basha/.gradle/caches/transforms-3/765e314c408873cafe7e33340be83d18/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/basha/.gradle/caches/transforms-3/41061b00bd1aab056bbdcef584dfa41a/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/basha/.gradle/caches/transforms-3/6f32d62952f82a2a6c947cc3ae7d260d/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
-INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
-INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
+INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
+INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
 	package
 		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:2:5-38
 		INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml
 		INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml
-		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
+		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
 		INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml
-		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-62:12
+		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:1-63:12
 		INJECTED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -118,12 +118,12 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/basha/.gradle/caches/transforms-3/69a1ecda0aece60a60abf5edaa9555a7/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:4:22-64
-uses-permission#android.permission.android.permission.SEND_SMS
-ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:6:5-85
+uses-permission#android.permission.SEND_SMS
+ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:6:22-83
+		ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:7:5-61:19
+ADDED from /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:7:6-61:19
 MERGED from [:cloud_firestore] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:cloud_firestore] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_performance] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/firebase_performance/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19

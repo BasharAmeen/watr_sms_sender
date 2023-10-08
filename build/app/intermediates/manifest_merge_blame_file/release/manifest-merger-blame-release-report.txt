@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.mycompany.smssender"
-4    android:versionCode="1"
+4    android:versionCode="4001"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
@@ -13,9 +13,9 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:4:5-66
 11-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:4:22-64
-12    <uses-permission android:name="android.permission.android.permission.SEND_SMS" />
-12-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:6:5-85
-12-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:6:22-83
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:5:5-66
+12-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:5:22-64
 13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 13-->[:flutter_local_notifications] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
 13-->[:flutter_local_notifications] /mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
@@ -42,7 +42,7 @@
 20-->[com.google.firebase:firebase-auth:22.0.0] /home/basha/.gradle/caches/transforms-3/21525fca08179f411f93c88786617a8e/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:22-76
 21
 22    <application
-22-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:7:5-61:19
+22-->/mnt/hdd/_Programming_Projects/WATR/watr_sms_sender/android/app/src/main/AndroidManifest.xml:7:6-61:19
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.6.0] /home/basha/.gradle/caches/transforms-3/d89c714fd26794d1fd7643c44466b2db/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 24        android:icon="@mipmap/ic_launcher"
